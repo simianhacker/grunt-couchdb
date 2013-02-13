@@ -1,0 +1,41 @@
+{
+  "name": "grunt-couchdb",
+  "description": "Grunt plugin for managing CouchDB",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ccowan/grunt-couchdb",
+  "author": {
+    "name": "Chris Cowan",
+    "email": "chris@chriscowan.us"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccowan/grunt-couchdb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ccowan/grunt-couchdb/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ccowan/grunt-couchdb/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-couchdb",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "couchapp": "~0.9.1",
+    "nano": "~3.3.6"
+  }
+}
